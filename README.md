@@ -28,6 +28,7 @@ API operations are
 GET /customers - retrieves all customers from db
 
 POST /customers - creates a new customer
+
 payload: 
 {
     "name": "Al Bundy",
@@ -38,16 +39,17 @@ payload:
 }
 
 GET /customers/{id} - get a customer by id
-ex: 
-GET /customers/1
+
+ex: GET /customers/1
 
 DELETE/customers/{id} - removes a customer by id
-ex:
-DELETE /customers/{id}
+
+ex: DELETE /customers/{id}
 
 PUT /customers/{id} - replaces a customer at id 
-ex: 
-PUT /customers/1
+
+ex: PUT /customers/1
+
 payload 
 {
     "name": "Al Bundy",
@@ -58,8 +60,9 @@ payload
 }
 
 PATCH /customers/{id} - updates a customer by id
-ex:
-PATCH /customers/1
+
+ex: PATCH /customers/1
+
 payload
 {
     "name": "Al Bundy",
